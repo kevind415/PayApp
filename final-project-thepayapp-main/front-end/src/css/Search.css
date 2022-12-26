@@ -1,0 +1,167 @@
+#layout
+{
+    display: flexbox;
+    width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+}
+
+#home_layout
+{
+    display: flexbox;
+    width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+}
+
+#title
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+#flex-item
+{
+    display: flex;
+    margin-bottom: 15px;
+    max-width: auto;
+    text-align: center;
+    justify-content: center;
+}
+#item
+{
+    flex-grow: 1;
+    max-width: 800px;
+    min-width: 300px;
+}
+#search_bar:-webkit-autofill {
+    height: 40px;
+    border: none;
+    -webkit-text-fill-color: none;
+    transition: background-color 5000s ease-in-out 0s;
+}
+#search_form
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    border-left: none;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 60px;
+}
+#search_bar
+{
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    text-align: left;
+    
+}
+#search_button
+{
+    all: unset;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+#search_icon
+{
+    border: 1px solid darkgray;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 2px;
+    color:darkgray;
+    background-color: #fafafa;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+#search_icon:hover
+{
+    background-color: whitesmoke;
+}
+#name
+{
+    float: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#pay-button
+{
+    z-index: 1;
+    float: right;
+    display: absolute;
+    margin-right: 40px;
+    margin-top: 280px;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    background-color: #fafafa;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pay-button:hover
+{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#bio-button
+{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    background-color: #fafafa;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: none; */
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+    user-select: text;
+}
+#bio-button:focus
+{
+    height: fit-content;
+}
+#bio-button:hover
+{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#bio-text
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+}
+#username
+{
+    float: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+fieldset
+{
+    background-color: white;
+    border: 2px solid dimgray;
+    border-radius: 5px;
+    padding: 20px;
+}

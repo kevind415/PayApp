@@ -1,0 +1,51 @@
+
+
+.my_button {
+
+        background-color: rgb(176,196,222);
+        border-radius: 8px;
+        padding: 6px 18px;
+        font-size: 16px;
+
+}
+
+ .my_button:hover{
+     background-color: rgb(138,185,241);
+ }
+
+ .my_input {
+
+     padding: 10px 200px;
+     box-sizing: border-box;
+     border-radius: 10px;
+     margin-left: 10px;
+     border-color:  rgb(219,233,244) ;
+     padding-left:10px;
+
+ }
+
+ .my_input:focus{
+     outline: none;
+    background-color: rgb(225, 246, 252) !important;
+ }
+ .my_input:focus {
+   border: 3px solid #555;
+ }
+ .my_textarea{
+    outline: none;
+    background-color: rgb(225, 246, 252) !important;
+
+ }
+
+ .my_textarea {
+     width: 100%;
+     height: 150px;
+     padding: 12px 20px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+     background-color: #d1d1d1;
+     font-size: 12px;
+     font-family: 'Helvetica';
+     resize: none;
+ }

@@ -1,0 +1,109 @@
+body
+{
+    background-color: #fafafa;
+}
+#grid-container
+{
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 100px auto;
+    margin-top: 100px;
+}
+#grid-stack
+{
+    margin-top: 200px;
+    margin-left: 40px;
+    display: flexbox;
+
+    /* gap: 25px 10px; */
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 250px;
+    border: 1px solid darkgray;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+#stack-item
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+#link
+{
+    position: fixed;
+    text-align: left;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fafafa;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#link:hover
+{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+#page-layout
+{
+    width: auto;
+    text-align: center;
+    margin-left: 175px;
+}
+#sign-up {
+    width: auto;
+    text-align: center;
+    /* margin-left: 175px; */
+}
+#image-container {
+    max-width: 100%;
+    height: auto;
+}
+#sign-up-stack {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    max-width: 500px;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+#login-stack {
+    
+    text-align: left;
+    display: grid;
+    max-width: 500px;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+#input {
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px dimgray;
+    margin: 5px;
+}
+#register {
+    width: 125px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px dimgray;
+    margin: 5px;
+    margin-right: 60px;
+}
+#input-textarea {
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px dimgray;
+    width: 83%;
+    height: 150px;
+}
+#hyperlink {
+    color: blue;
+}
+#hyperlink:hover {
+    cursor: pointer;
+}

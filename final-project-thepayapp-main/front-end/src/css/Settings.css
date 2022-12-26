@@ -1,0 +1,126 @@
+
+.container2
+{
+    width: 580px;
+    background-color: rgb(255,255,255 );
+    padding: 40px;
+    border: .2rem solid #0a250a80;
+    border-radius: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hello
+{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    background-color: rgb(255,255,255);
+    padding: 40px;
+    border: .2rem solid  #0a250a80;
+    border-radius: .5rem;
+}
+
+.button-style
+{
+        background-color: rgb(176,196,222);
+        border-radius: 8px;
+        padding: 6px 18px;
+        font-size: 16px;
+        margin: 5px;
+}
+
+ .button-style:hover
+ {
+     background-color: rgb(138,185,241);
+ }
+
+ h3 
+ {
+    font-size: 25px;
+    color:rgb(28, 78, 45);
+    text-shadow: 0.5px 0.5px black;
+    animation: 3s shake infinite alternate;
+ }
+ @keyframes shake
+ {
+     0% {transform: skew(-20deg);}
+     5% {transform: skew(20deg);}
+     10% {transform: skew(-20deg);}
+     15% {transform: skew(20deg);}
+     20% {transform: skew(-20deg);}
+     30% {transform: skew(20deg);}
+     90% {transform: skew(0deg);}
+     100% {transform: skew(0deg);}
+ }
+
+ h2 
+ {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(228, 233, 238);
+ }
+
+ h4
+ {
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(186, 194, 202);
+
+ }
+ h6
+ {
+     font-family:cursive;
+    color:rgb(246, 248, 250);
+ }
+ 
+ .label-styling
+ {
+    width:250xpx;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+
+ .input-styling
+ {
+     padding: 10px 200px;
+     box-sizing: border-box;
+     border-radius: 10px;
+     margin-left: 10px;
+     border-color:  rgb(219,233,244) ;
+     padding-left:10px;
+     margin: 5px;
+ }
+
+ .input-styling:focus
+ {
+    outline: none;
+    background-color: rgb(225, 246, 252) !important;
+ }
+ .input-styling:focus 
+ {
+   border: 3px solid #555;
+ }
+ textarea
+ {
+    outline: none;
+    background-color: rgb(225, 246, 252) !important;
+
+ }
+ html
+ {
+     background-color: rgb(242,243,244,0.2);
+     background-size: cover;
+     height: 90%;
+ }
+
+
+ .grid-item 
+ {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 10px;
+    padding: 10px;
+  }
